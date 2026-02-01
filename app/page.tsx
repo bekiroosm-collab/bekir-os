@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Home() {
   return (
     <div className="max-w-6xl mx-auto space-y-8">
@@ -86,10 +88,11 @@ export default function Home() {
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
           Bekir AI Asistan
         </h2>
+        {/* DÜZELTİLEN KISIM BURASI */}
         <div className="bg-black/40 rounded-xl p-4 min-h-[150px] text-gray-300 font-mono text-sm">
-          > Sistem taraması tamamlandı.<br/>
-          > EsnafPro veritabanında 2 yeni potansiyel müşteri var (Çankırı Merkez).<br/>
-          > Hatırlatma: İnovasyon ödevi için son 4 saat.<br/>
+          &gt; Sistem taraması tamamlandı.<br/>
+          &gt; EsnafPro veritabanında 2 yeni potansiyel müşteri var (Çankırı Merkez).<br/>
+          &gt; Hatırlatma: İnovasyon ödevi için son 4 saat.<br/>
           <span className="animate-pulse">_</span>
         </div>
         <div className="mt-4 flex gap-2">
